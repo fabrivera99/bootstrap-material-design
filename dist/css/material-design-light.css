@@ -1,0 +1,93 @@
+body {
+    background-color: #EEE;
+}
+.navbar{
+    height: 56px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+.navbar-default{
+    color: white;
+    background-color: #3f51b5;
+    border: none;
+}
+.navbar-default .navbar-brand{
+    padding-top: 17px;    
+    font-weight: bolder;
+    color: white;
+}
+.navbar-default .navbar-brand:hover{
+    color: #e8e8e8;
+}
+.panel{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border-radius: 2px;
+}
+.dropdown-toggle, 
+.btn{
+    font-size: 15px;
+    font-weight: 600;
+    transition: background-color 0.5s, box-shadow 0.5s;
+    border: none;
+    padding: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2px;
+}
+.dropdown-toggle:hover,
+.btn:hover{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    
+}
+.dropdown-menu{
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 2px;
+    background-color: #FAFAFA;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.dropdown-toggle-raised{
+    border: 1px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+.hr{
+    background-color: black;    
+}
+.btn-group .btn{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2px;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+.input-group-addon{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.00);    
+}
+.form-control{
+    border-radius: 0px;
+    border: none;
+    transition: border-bottom 0.5s;
+    border-bottom: 1px solid #DBDBDB;
+    box-shadow: none;
+}
+.form-control:focus{
+    border-bottom: 2px solid #2196f3;
+    box-shadow: none;
+}
+.navbar-green{
+    border: none;
+    color: white;
+    background-color: #8bc34a;    
+}
+.navbar-red .navbar-brand{
+    color: white;
+}
+.padding-c{
+    transition: background-color 0.2s;
+    height: 35px;
+}
