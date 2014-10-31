@@ -5,6 +5,7 @@
         <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="../../dist/css/material-design-light.css" rel="stylesheet">
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width">
         <title>Components Examples</title>
     </head>
     <body>
@@ -117,23 +118,7 @@
                                         <li><a href="#">Separated link</a></li>
                                     </ul>
                                 </div>
-                            </td>
-                            <td>
-                                <div style="display: inline;" class="btn-group">
-                                    <button type="button" class="btn btn-success">Success</button>
-                                    <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
-                                        <span class="caret"></span>
-                                        <span class="sr-only">Toggle Dropdown</span>
-                                    </button>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Separated link</a></li>
-                                    </ul>
-                                </div>
-                            </td>
+                            </td>                            
                         </tr>
                     </table>
                     <br><br><br>
@@ -143,24 +128,8 @@
                         <tr>
                             <td>
                                 <div style="display: inline;" class="btn-group dropup">
-                                    <button type="button" class="btn btn-danger">Danger</button>
-                                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
-                                        <span class="caret"></span>
-                                        <span class="sr-only">Toggle Dropdown</span>
-                                    </button>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Separated link</a></li>
-                                    </ul>
-                                </div>
-                            </td>
-                            <td>
-                                <div style="display: inline;" class="btn-group dropup">
-                                    <button type="button" class="btn btn-info">Info</button>
-                                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                                    <button type="button" class="btn btn-warning">Warning</button>
+                                    <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
                                         <span class="caret"></span>
                                         <span class="sr-only">Toggle Dropdown</span>
                                     </button>
@@ -188,7 +157,7 @@
                                         <li><a href="#">Separated link</a></li>
                                     </ul>
                                 </div>
-                            </td>
+                            </td>                            
                         </tr>
                     </table>                                         
                 </div>
@@ -252,12 +221,21 @@
                 <div style="font-weight: 800;" class="panel-body">
                     NAVBAR EXAMPLE
                     <br><br>
-                    <div class="paper-navbar">
-                        <div class="left menu-m visible-xs"></div>
-                        <div class="left menu hidden-xs"></div>
-                        <div>
-                            
-                        </div>
+                    <div class="paper-navbar">                        
+                        <table style="width: 100%;">
+                            <tr>
+                                <td class="right">
+                                    <div class="menu-m visible-xs"></div>
+                                    <div class="menu hidden-xs"></div>                                    
+                                </td>
+                                <td>
+                                    <h4 class="middle">Title</h4>
+                                </td>
+                                <td class="left">
+                                    <div class="search"></div>
+                                </td>
+                            </tr>
+                        </table>
                         <ul>
                             <li class="side-r inactive-white"><a>Item One</a></li>
                             <li class="active-white"><a>Item Two</a></li>

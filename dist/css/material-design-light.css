@@ -173,7 +173,7 @@ body {
     background-color: #ffeb3b;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
     height: 128px;
-    padding: 0px;
+    padding: 0px;    
     border-radius: 2px;
 }
 .paper-navbar ul{
@@ -199,11 +199,32 @@ body {
 .paper-navbar .inactive-white{
     border-bottom: 2px solid #ffeb3b;
 }
-.paper-navbar .left{
-    position: relative;
-    left: 0px;
-    top: 0px;
+.left{
+    width: 5%;
 }
+.right{
+    width: 5%;
+}
+.middle{
+    padding: 5px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.50);
+}
+
+
+
+
+.search{
+    width: 48px;
+    height: 48px;
+    background: url("../../dist/img/search.png") no-repeat;
+    transition: transform 0.5s, background-color 0.5s;
+}
+.search:active{
+    background-color: #fbc02d;
+}
+
+
 
 
 
@@ -211,14 +232,18 @@ body {
     width: 48px;
     height: 48px;
     background: url("../../dist/img/sprite.png") no-repeat;
-    transition: transform 0.5s, background-color 0.5s;
-
+    transition: transform 0.3s, background-color 0.3s;
 }
+.menu:active{
+    background-color: #fbc02d;
+}
+
+
 .menu-m {
     width: 48px;
     height: 48px;
     background: url("../../dist/img/sprite.png") no-repeat;
-    transition: transform 0.5s, background-color 0.5s;
+    transition: transform 0.3s, background-color 0.3s;
 
 }
 .menu-m:hover{
