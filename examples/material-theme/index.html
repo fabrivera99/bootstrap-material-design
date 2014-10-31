@@ -232,27 +232,37 @@
             </h1>
             <div class="panel panel-default">
                 <div style="font-weight: 800;" class="panel-body">
-                    EXAMPLE
+                    TABS EXAMPLE
+                    <br>
+                    <ul class="navs-tabs">
+                        <li class="side-r active"><a>Home</a></li>
+                        <li class="inactive"><a>News</a></li>
+                        <li class="inactive side-l"><a>Contact</a></li>
+                    </ul>
+                    
+                    <ul class="navs-tabs-white">
+                        <li class="side-r inactive-white"><a>Home</a></li>
+                        <li class="inactive-white"><a>News</a></li>
+                        <li class="active-white"><a>Contact</a></li>
+                        <li class="inactive-white side-l"><a>Search</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div style="font-weight: 800;" class="panel-body">
+                    NAVBAR EXAMPLE
                     <br><br>
-                    <div class="navbar navbar-default navbar-green" role="navigation">
-                      <div class="container">
-                        <div class="navbar-header">                          
-                          <a class="navbar-brand" href="#">Project name</a>
+                    <div class="paper-navbar">
+                        <div class="left menu-m visible-xs"></div>
+                        <div class="left menu hidden-xs"></div>
+                        <div>
+                            
                         </div>
-                        <form class="navbar-form navbar-right" role="form">
-                            <button type="button" class="btn btn-success dropdown-toggle padding-c" data-toggle="dropdown">
-                                <img src="../../dist/css/points.png" alt="Toggle navigation">
-                                <span class="sr-only">Toggle Dropdown</span>
-                            </button>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                            </ul>
-                        </form>                        
-                      </div>
+                        <ul>
+                            <li class="side-r inactive-white"><a>Item One</a></li>
+                            <li class="active-white"><a>Item Two</a></li>
+                            <li class="inactive-white"><a>Item Three</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -260,5 +270,6 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>    
         <script src="../../dist/js/bootstrap.min.js"></script>
+        <script src="../../dist/js/material-designs.js"></script>
     </body>
 </html>
