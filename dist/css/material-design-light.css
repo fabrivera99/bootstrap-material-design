@@ -260,6 +260,16 @@ body {
     background-color: #fbc02d;
 }
 
+
+
+
+.thumbnail{
+    border-radius: 0;    
+}
+
+
+
+
 @-webkit-keyframes play {
    from { background-position:    0px; }
      to { background-position: -232px; }
