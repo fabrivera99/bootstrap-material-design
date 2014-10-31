@@ -62,6 +62,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 2px;
+    -webkit-transition: background-color 0.5s, box-shadow 0.5s;
     transition: background-color 0.5s, box-shadow 0.5s;
 }
 .input-group-addon{
@@ -71,6 +72,7 @@ body {
 .form-control{
     border-radius: 0px;
     border: none;
+    -webkit-transition: border-bottom 0.5s;
     transition: border-bottom 0.5s;
     border-bottom: 1px solid #DBDBDB;
     box-shadow: none;
@@ -219,6 +221,7 @@ body {
     height: 48px;
     background: url("../../dist/img/search.png") no-repeat;
     transition: transform 0.5s, background-color 0.5s;
+    -webkit-transition: transform 0.3s, background-color 0.3s;
 }
 .search:active{
     background-color: #fbc02d;
@@ -232,6 +235,7 @@ body {
     width: 48px;
     height: 48px;
     background: url("../../dist/img/sprite.png") no-repeat;
+    -webkit-transition: transform 0.3s, background-color 0.3s;
     transition: transform 0.3s, background-color 0.3s;
 }
 .menu:active{
@@ -243,6 +247,7 @@ body {
     width: 48px;
     height: 48px;
     background: url("../../dist/img/sprite.png") no-repeat;
+    -webkit-transition: transform 0.3s, background-color 0.3s;
     transition: transform 0.3s, background-color 0.3s;
 
 }
